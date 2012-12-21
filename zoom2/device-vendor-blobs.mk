@@ -52,7 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/bn/zoom2/proprietary/libOMX.TI.G711.decode.so:/system/lib/libOMX.TI.G711.decode.so \
     vendor/bn/zoom2/proprietary/libOMX.TI.WBAMR.encode.so:/system/lib/libOMX.TI.WBAMR.encode.so \
     vendor/bn/zoom2/proprietary/libomx_avcdec_sharedlibrary.so:/system/lib/libomx_avcdec_sharedlibrary.so \
-#    vendor/bn/zoom2/proprietary/libomap_mm_library_jni.so:/system/lib/libomap_mm_library_jni.so \
     vendor/bn/zoom2/proprietary/libopencore_downloadreg.so:/system/lib/libopencore_downloadreg.so \
     vendor/bn/zoom2/proprietary/libOMX.TI.G729.decode.so:/system/lib/libOMX.TI.G729.decode.so \
     vendor/bn/zoom2/proprietary/libomx_sharedlibrary.so:/system/lib/libomx_sharedlibrary.so \
@@ -62,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/bn/zoom2/proprietary/libOMX.TI.G726.encode.so:/system/lib/libOMX.TI.G726.encode.so \
     vendor/bn/zoom2/proprietary/libopencore_mp4local.so:/system/lib/libopencore_mp4local.so \
     vendor/bn/zoom2/proprietary/libOMX.TI.G711.encode.so:/system/lib/libOMX.TI.G711.encode.so \
-#    vendor/bn/zoom2/proprietary/libOMX.TI.AMR.encode.so:/system/lib/libOMX.TI.AMR.encode.so \
     vendor/bn/zoom2/proprietary/libIMGegl.so:/system/lib/libIMGegl.so \
     vendor/bn/zoom2/proprietary/g729enc_sn.dll64P:/system/lib/dsp/g729enc_sn.dll64P \
     vendor/bn/zoom2/proprietary/g722dec_sn.dll64P:/system/lib/dsp/g722dec_sn.dll64P \
@@ -110,8 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/bn/zoom2/proprietary/libGLES_android.so:/system/lib/egl/libGLES_android.so \
     vendor/bn/zoom2/proprietary/egl.cfg:/system/lib/egl/egl.cfg \
     vendor/bn/zoom2/proprietary/pvrsrvinit:/system/bin/pvrsrvinit \
-    vendor/bn/zoom2/proprietary/powervr.ini:/system/etc/powervr.ini \
-    vendor/bn/zoom2/proprietary/libOpenVGU.so:/system/lib/libOpenVGU.so \
     vendor/bn/zoom2/proprietary/libEGL_POWERVR_SGX530_125.so:/system/lib/egl/libEGL_POWERVR_SGX530_125.so \
     vendor/bn/zoom2/proprietary/libGLESv2_POWERVR_SGX530_125.so:/system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
     vendor/bn/zoom2/proprietary/libGLESv1_CM_POWERVR_SGX530_125.so:/system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
@@ -119,13 +115,17 @@ PRODUCT_COPY_FILES += \
     vendor/bn/zoom2/proprietary/libIMGegl.so:/system/lib/libIMGegl.so \
     vendor/bn/zoom2/proprietary/gralloc.omap3.so:/system/lib/hw/gralloc.omap3.so \
     vendor/bn/zoom2/proprietary/overlay.omap3.so:/system/lib/hw/overlay.omap3.so \
-    vendor/bn/zoom2/proprietary/libpvrPVR2D_FLIPWSEGL.so:/system/lib/libpvrPVR2D_FLIPWSEGL.so \
-    vendor/bn/zoom2/proprietary/libusc.so:/system/lib/libusc.so \
     vendor/bn/zoom2/proprietary/libglslcompiler.so:/system/lib/libglslcompiler.so \
-    vendor/bn/zoom2/proprietary/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
     vendor/bn/zoom2/proprietary/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
-    vendor/bn/zoom2/proprietary/libpvrPVR2D_FRONTWSEGL.so:/system/lib/libpvrPVR2D_FRONTWSEGL.so \
-    vendor/bn/zoom2/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/bn/zoom2/proprietary/libpvr2d.so:/system/lib/libpvr2d.so \
-    vendor/bn/zoom2/proprietary/libsrv_init.so:/system/lib/libsrv_init.so \
+    vendor/bn/zoom2/proprietary/libsrv_init.so:/system/lib/libsrv_init.so
 
+#    vendor/bn/zoom2/proprietary/libomap_mm_library_jni.so:/system/lib/libomap_mm_library_jni.so \
+#    vendor/bn/zoom2/proprietary/libOMX.TI.AMR.encode.so:/system/lib/libOMX.TI.AMR.encode.so \
+#    vendor/bn/zoom2/proprietary/powervr.ini:/system/etc/powervr.ini \
+#    vendor/bn/zoom2/proprietary/libOpenVGU.so:/system/lib/libOpenVGU.so \
+#    vendor/bn/zoom2/proprietary/libpvrPVR2D_FLIPWSEGL.so:/system/lib/libpvrPVR2D_FLIPWSEGL.so \
+#    vendor/bn/zoom2/proprietary/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
+#    vendor/bn/zoom2/proprietary/libpvrPVR2D_FRONTWSEGL.so:/system/lib/libpvrPVR2D_FRONTWSEGL.so \
+#    vendor/bn/zoom2/proprietary/libusc.so:/system/lib/libusc.so \
+#    vendor/bn/zoom2/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
